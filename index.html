@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sorting Algorithms Visualizer</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Sorting Algorithms Visualizer</h1>
+  <div id="controls">
+    <label for="arraySize" style="font-weight: 600;">Array Size:</label>
+    <input id="arraySize" type="number" min="10" max="100" value="30" step="1" />
+    <button id="generateBtn">Generate New Array</button>
+    <select id="algorithmSelect">
+      <option value="" disabled selected>Select Algorithm</option>
+      <option value="bubbleSort">Bubble Sort</option>
+      <option value="selectionSort">Selection Sort</option>
+      <option value="insertionSort">Insertion Sort</option>
+      <option value="mergeSort">Merge Sort</option>
+      <option value="quickSort">Quick Sort</option>
+    </select>
+    <button id="visualizeBtn">Visualize</button>
+  </div>
+
+  <div id="arrayContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
