@@ -33,7 +33,7 @@ Works in modern browsers
 🛠️ Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/Algorithm-Visualizer.git
+git clone https://github.com/yourusername/Algorithm-Visualizer.git](https://github.com/Gauravuk03/Algorithm-Visualizer
 cd Algorithm-Visualizer
 Install dependencies (if needed):
 
